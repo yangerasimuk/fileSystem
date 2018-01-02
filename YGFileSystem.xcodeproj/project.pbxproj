@@ -63,7 +63,60 @@
 		135510ED1F177241004F10DE /* YYGFileSystemDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 135510EB1F177241004F10DE /* YYGFileSystemDefine.m */; };
 		135510F01F177298004F10DE /* YYGFileSystemError.h in Headers */ = {isa = PBXBuildFile; fileRef = 135510EE1F177298004F10DE /* YYGFileSystemError.h */; };
 		135510F11F177298004F10DE /* YYGFileSystemError.m in Sources */ = {isa = PBXBuildFile; fileRef = 135510EF1F177298004F10DE /* YYGFileSystemError.m */; };
+		1356D4951FFC33750031C683 /* libYGFileSystem.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CDB1EB90DBB0056A8F3 /* libYGFileSystem.a */; };
+		1356D4971FFC33AA0031C683 /* YGFileSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CDE1EB90DBB0056A8F3 /* YGFileSystem.h */; };
+		1356D4981FFC33AA0031C683 /* YGFileSystemObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CF81EB90E520056A8F3 /* YGFileSystemObject.h */; };
+		1356D4991FFC33AA0031C683 /* YGFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CFD1EB90E520056A8F3 /* YGFile.h */; };
+		1356D49A1FFC33AA0031C683 /* YGDirectory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CFF1EB90E520056A8F3 /* YGDirectory.h */; };
+		1356D49B1FFC33AA0031C683 /* YGSearchPattern.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CF41EB90E520056A8F3 /* YGSearchPattern.h */; };
+		1356D49C1FFC33AA0031C683 /* YGFileSystemEnumerator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CFB1EB90E520056A8F3 /* YGFileSystemEnumerator.h */; };
+		1356D49D1FFC33AA0031C683 /* YGFileSystemSorter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CF61EB90E520056A8F3 /* YGFileSystemSorter.h */; };
+		1356D49E1FFC33AA0031C683 /* YYGFileSystemDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 135510EA1F177241004F10DE /* YYGFileSystemDefine.h */; };
+		1356D49F1FFC33AA0031C683 /* YYGFileSystemError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 135510EE1F177298004F10DE /* YYGFileSystemError.h */; };
+		1356D4A01FFC33AA0031C683 /* YGSearchRule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CF21EB90E520056A8F3 /* YGSearchRule.h */; };
+		1356D4A11FFC33AA0031C683 /* YGSearchRuleNameIsRegex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CEA1EB90E520056A8F3 /* YGSearchRuleNameIsRegex.h */; };
+		1356D4A21FFC33AA0031C683 /* YGSearchRuleHasPrefix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CEC1EB90E520056A8F3 /* YGSearchRuleHasPrefix.h */; };
+		1356D4A31FFC33AA0031C683 /* YGSearchRuleByType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CF01EB90E520056A8F3 /* YGSearchRuleByType.h */; };
+		1356D4A41FFC33AA0031C683 /* YGSearchRuleNameMinLength.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CE81EB90E520056A8F3 /* YGSearchRuleNameMinLength.h */; };
+		1356D4A51FFC33AA0031C683 /* YGSearchRuleDirectoryContainsFileName.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13008CEE1EB90E520056A8F3 /* YGSearchRuleDirectoryContainsFileName.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1356D4941FFC334C0031C683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(USER_LIBRARY_DIR)/YGFileSystem";
+			dstSubfolderSpec = 0;
+			files = (
+				1356D4951FFC33750031C683 /* libYGFileSystem.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1356D4961FFC337F0031C683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(USER_LIBRARY_DIR)/YGFileSystem/include";
+			dstSubfolderSpec = 0;
+			files = (
+				1356D4971FFC33AA0031C683 /* YGFileSystem.h in CopyFiles */,
+				1356D4981FFC33AA0031C683 /* YGFileSystemObject.h in CopyFiles */,
+				1356D4991FFC33AA0031C683 /* YGFile.h in CopyFiles */,
+				1356D49A1FFC33AA0031C683 /* YGDirectory.h in CopyFiles */,
+				1356D49B1FFC33AA0031C683 /* YGSearchPattern.h in CopyFiles */,
+				1356D49C1FFC33AA0031C683 /* YGFileSystemEnumerator.h in CopyFiles */,
+				1356D49D1FFC33AA0031C683 /* YGFileSystemSorter.h in CopyFiles */,
+				1356D49E1FFC33AA0031C683 /* YYGFileSystemDefine.h in CopyFiles */,
+				1356D49F1FFC33AA0031C683 /* YYGFileSystemError.h in CopyFiles */,
+				1356D4A01FFC33AA0031C683 /* YGSearchRule.h in CopyFiles */,
+				1356D4A11FFC33AA0031C683 /* YGSearchRuleNameIsRegex.h in CopyFiles */,
+				1356D4A21FFC33AA0031C683 /* YGSearchRuleHasPrefix.h in CopyFiles */,
+				1356D4A31FFC33AA0031C683 /* YGSearchRuleByType.h in CopyFiles */,
+				1356D4A41FFC33AA0031C683 /* YGSearchRuleNameMinLength.h in CopyFiles */,
+				1356D4A51FFC33AA0031C683 /* YGSearchRuleDirectoryContainsFileName.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13008CDB1EB90DBB0056A8F3 /* libYGFileSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGFileSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +288,8 @@
 				13008CD71EB90DBB0056A8F3 /* Sources */,
 				13008CD81EB90DBB0056A8F3 /* Frameworks */,
 				13008CD91EB90DBB0056A8F3 /* Headers */,
+				1356D4941FFC334C0031C683 /* CopyFiles */,
+				1356D4961FFC337F0031C683 /* CopyFiles */,
 			);
 			buildRules = (
 			);
